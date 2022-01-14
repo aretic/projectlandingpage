@@ -1,0 +1,244 @@
+body {
+    background-color: black;
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row nowrap;
+    background-color: #1F2937;
+    flex: 0;
+    padding-bottom: 50px;
+    min-height: 10px;
+    max-height: 50px;
+}
+
+.header .logo {
+    display: flex;
+    align-self: center;
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-left: 160px;
+}
+
+.header .links {
+    display: flex;
+    gap: 16px;
+    align-self: center;
+    margin-right: 160px;
+}
+
+a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.headerinfo {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.headertext {
+    color: #F9FAF8;
+    display: flex;
+    flex-flow: column nowrap;
+    width: 50%;
+    margin-left: 160px;
+}
+
+.headertext h1 {
+    font-size: 48px;
+    font-weight: 800;
+    margin: 0;
+    margin-right: 48px;
+}
+
+.headertext p {
+    font-size: 18px;
+    margin: 0;
+    color: #E5E7EB;
+    margin: 5px 48px 16px 0px;
+}
+
+button {
+    background-color: #3882F6;
+    justify-self: flex-start;
+    border-radius: 5px;
+    padding: 8px 40px 8px 40px;
+    border: none;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+
+}
+
+.imgplace {
+    background-color: gray;
+    color: white;
+    display: flex;
+    align-self: stretch;
+    width: 50%;
+    margin-right: 160px;
+}
+
+.imgplace p {
+    width: 100%;
+    text-align: center;
+    align-self: center;
+}
+
+.randominfo {
+    background-color: white;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    font-weight: 900;
+    padding: 10px 0px 50px 0px;
+}
+
+.randominfo h2 {
+    margin: 40px 0px 40px 0px;
+    }
+
+.randominfo .rdetails {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    gap: 50px;
+}
+
+.rdetails p {
+    color: black;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.imgplchldr {
+    background-color: rgba(0, 0, 255, 0.075);
+    border: 5px solid #3882F6;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: 150px;
+}
+
+.email {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+}
+
+
+.plane {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+}
+
+
+
+.robot {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+}
+
+
+
+.signpost {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+}
+
+
+.quote {
+    padding-top: 100px;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 250px 100px 250px;
+    }
+
+.quote cite {
+    margin: 15px 10px 0px 0px;
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 18px;
+}
+.signinfo {
+    background-color:white;
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 auto;
+}
+
+.signinfo .x {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1 1 auto;
+    margin: 50px 160px 50px 160px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.actiontext {
+    background-color: #3882F6;
+    color: white;
+}
+
+.actiontext h2 {
+    margin-bottom: 0;
+    margin-left: 25px;
+}
+
+.actiontext p {
+    margin-top: 0px;
+    margin-left: 25px;
+    margin-right: 50px;
+}
+
+.x button {
+    background-color: #3882F6;
+    border: 1px solid white;
+    margin: 0 auto;
+    margin-right: 60px;
+    font-weight: bold;
+}
+
+.footer {
+background-color: #1F2937;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #E5E7EB;
+}
